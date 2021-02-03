@@ -1,0 +1,1 @@
+gzip -9 /home/demipt/de/files/*.log

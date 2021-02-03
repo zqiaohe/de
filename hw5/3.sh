@@ -1,0 +1,1 @@
+ps -U demipt >> /home/demipt/bayarma_1/processes.txt
