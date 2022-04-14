@@ -1,7 +1,7 @@
 import pandas
 import jaydebeapi
 
-conn = jaydebeapi.connect('oracle.jdbc.driver.OracleDriver','jdbc:oracle:thin:demipt/gandalfthegrey@de-oracle.chronosavant.ru:1521/deoracle',['demipt','gandalfthegrey'],'/home/zorigma/Документы/opt/sqldeveloper/jdbc/lib/ojdbc8.jar')
+conn = jaydebeapi.connect('oracle.jdbc.driver.OracleDriver','jdbc:oracle:thin:demipt/8@de-oracle.8.ru:1521/8',['8','8'],'/home/8/Документы/8/sqldeveloper/jdbc/lib/ojdbc8.jar')
 curs = conn.cursor()
 
 df = pandas.read_excel( 'cities_population.xlsx', sheet_name='cities', header=0, index_col=None, engine='openpyxl')
